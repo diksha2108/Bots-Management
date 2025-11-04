@@ -2,7 +2,7 @@
 """
 Created on Mon Nov  3 17:16:24 2025
 
-@author: soura
+@author: diksha
 """
 
 import numpy as np
@@ -94,3 +94,4 @@ example = X_test.sample(n=1, random_state=0)
 print("Example features:\n", example)
 print("Predicted bot probability:", rf.predict_proba(example)[:,1][0])
 print("Predicted class:", rf.predict(example)[0])
+
